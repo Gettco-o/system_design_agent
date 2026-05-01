@@ -1,48 +1,58 @@
 {
-      "agent_name": "Cursor_claude",
+      "agent_name": "Cursor",
       "model": "claude",
       "results": [
             {
                   "prompt_id":1,
                   "prompt": "...System design for a digital contribution App",
                   "scores": {
-                        "requirement_understanding": 4,
-                        "architectural_quality": 4,
-                        "data_model_design": 4,
-                        "api_design_quality": 4,
-                        "scalability_reliability": 4,
-                        "tradeoff_reasoning": 4,
-                        "clarity_structure": 4,
-                        "total_score": 28
+                        "requirement_understanding": 1400,
+                        "architectural_quality": 2400,
+                        "data_model_design": 1400,
+                        "api_design_quality": 800,
+                        "scalability_reliability": 1400,
+                        "tradeoff_reasoning": 300,
+                        "clarity_structure": 800,
+                        "total_score": 8500
+                  } 
+            },
+            {
+                  "prompt_id":2,
+                  "prompt": "...System design for a food delivery app like Uber Eats",
+                  "scores": {
+                        "requirement_understanding": 1400,
+                        "architectural_quality": 2400,
+                        "data_model_design": 1400,
+                        "api_design_quality": 1300,
+                        "scalability_reliability": 1400,
+                        "tradeoff_reasoning": 300,
+                        "clarity_structure": 900,
+                        "total_score": 9100
                   } 
             },
             {
                   "prompt_id":1,
-                  "prompt": "...System design for a digital contribution App",
+                  "prompt": "...System design for a doctor appointment platform",
                   "scores": {
-                        "requirement_understanding": 4,
-                        "architectural_quality": 4,
-                        "data_model_design": 4,
-                        "api_design_quality": 4,
-                        "scalability_reliability": 4,
-                        "tradeoff_reasoning": 4,
-                        "clarity_structure": 4,
-                        "total_score": 28
-                  } 
-            },
-            {
-                  "prompt_id":1,
-                  "prompt": "...System design for a digital contribution App",
-                  "scores": {
-                        "requirement_understanding": 4,
-                        "architectural_quality": 4,
-                        "data_model_design": 4,
-                        "api_design_quality": 4,
-                        "scalability_reliability": 4,
-                        "tradeoff_reasoning": 4,
-                        "clarity_structure": 4,
-                        "total_score": 28
+                        "requirement_understanding": 1400,
+                        "architectural_quality": 2400,
+                        "data_model_design": 1400,
+                        "api_design_quality": 1300,
+                        "scalability_reliability": 1400,
+                        "tradeoff_reasoning": 300,
+                        "clarity_structure": 900,
+                        "total_score": 9100
                   } 
             }
-      ]
+      ],
+      "average_scores": {
+            "requirement_understanding": 1400,
+            "architectural_quality": 2400,
+            "data_model_design": 1400,
+            "api_design_quality": 1333.33,
+            "scalability_reliability": 1400,
+            "tradeoff_reasoning": 300,
+            "clarity_structure": 866.67,
+            "total_score": 9100
+      }
 }
