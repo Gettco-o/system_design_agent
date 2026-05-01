@@ -1,0 +1,48 @@
+{
+      "agent_name": "My_System_Design_Agent",
+      "model": "llama-3.3-70b-versatile",
+      "results": [
+            {
+                  "prompt_id":1,
+                  "prompt": "...System design for a digital contribution App",
+                  "scores": {
+                        "requirement_understanding": 4,
+                        "architectural_quality": 4,
+                        "data_model_design": 4,
+                        "api_design_quality": 4,
+                        "scalability_reliability": 4,
+                        "tradeoff_reasoning": 4,
+                        "clarity_structure": 4,
+                        "total_score": 28
+                  } 
+            },
+            {
+                  "prompt_id":1,
+                  "prompt": "...System design for a digital contribution App",
+                  "scores": {
+                        "requirement_understanding": 4,
+                        "architectural_quality": 4,
+                        "data_model_design": 4,
+                        "api_design_quality": 4,
+                        "scalability_reliability": 4,
+                        "tradeoff_reasoning": 4,
+                        "clarity_structure": 4,
+                        "total_score": 28
+                  } 
+            },
+            {
+                  "prompt_id":1,
+                  "prompt": "...System design for a digital contribution App",
+                  "scores": {
+                        "requirement_understanding": 4,
+                        "architectural_quality": 4,
+                        "data_model_design": 4,
+                        "api_design_quality": 4,
+                        "scalability_reliability": 4,
+                        "tradeoff_reasoning": 4,
+                        "clarity_structure": 4,
+                        "total_score": 28
+                  } 
+            }
+      ]
+}
