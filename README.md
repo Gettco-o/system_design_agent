@@ -50,6 +50,7 @@ This makes system design a strong fit for an AI-native workflow. The agent can r
 ## Design Decisions
 
 - **Prompt-enforced structure:** `prompt.py` requires seven sections in a fixed order so every generated design is easy to compare, score, and review.
+- **Practical model choice:** The app uses Groq with `llama-3.3-70b-versatile` because it provides strong reasoning quality while also offering a free-access option with higher limits, which made repeated testing and benchmarking practical.
 - **Low temperature setting:** `GROQ_TEMPERATURE` defaults to `0.2`, prioritizing consistency and repeatable architecture reasoning over creative variation.
 - **Mermaid diagrams:** The system prompt requires at least one Mermaid diagram, making architecture and entity relationships readable directly inside markdown.
 - **Modular code:** The app separates configuration, prompt construction, generation, file writing, and CLI entrypoint across small files: `config.py`, `prompt.py`, `generator.py`, `file_writer.py`, and `main.py`.
