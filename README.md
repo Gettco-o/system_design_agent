@@ -9,7 +9,7 @@ It is optimized for early-stage architecture work: interpreting requirements, pr
 Example input:
 
 ```bash
-python main.py "Build a doctor appointment platform for patients and doctors" --output design.md
+python main.py "Build a doctor appointment platform for patients and doctors"
 ```
 
 Example output shape:
