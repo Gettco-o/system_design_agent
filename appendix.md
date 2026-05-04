@@ -288,33 +288,3 @@ The agent could detect the domain and add deeper design requirements:
 ### Output quality gates
 
 Future versions could reject outputs that are too short, missing required sections, or lack concrete APIs.
-
-## 13. Cursor Chat Screenshots
-
-No Cursor chat screenshot files are currently committed in this repository.
-
-Suggested screenshot section once images are added:
-
-```md
-![Cursor digital contribution prompt](docs/screenshots/cursor-digital-contribution.png)
-![Cursor food delivery prompt](docs/screenshots/cursor-food-delivery.png)
-![Cursor doctor appointment prompt](docs/screenshots/cursor-doctor-appointment.png)
-```
-
-Recommended folder:
-
-```text
-docs/screenshots/
-```
-
-The screenshots should show:
-
-- the prompt sent to Cursor
-- the generated Cursor response
-- enough visible output to prove the comparison source
-
-## 14. Final Reflection
-
-The final project demonstrates that a specialized agent can beat a general-purpose coding assistant on a focused workflow, even if the general assistant produces longer and more detailed documents.
-
-The reason is specialization. The custom agent knows exactly what a system design answer should contain, produces it in a repeatable structure, and emphasizes tradeoff reasoning. That makes it especially valuable for early-stage architectural decision-making.
